@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del alumno</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"><script> -->
+ <script src="phonegap.js"></script>
+ 
+ 
+</head>
+ 
+<body>
+ 
+ <div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Datos personales del alumno</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto del Perfil</h1>
+<div>
+<p>Esta es mi imagen de perfil:</p>
+<br>
+</div>
+<div>
+<img src="imagenes/fotoPerfil.png" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Datos generales</h2>
+<p>Rodrigo Daneil Bautista Pérez</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fecha de Nacimiento</h2>
+<p>Dia 3 de Marzo del año 2001</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>DOMICILIO</h2>
+<p>Calle independencia #5 en Axocopan, Atlixco,pue</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Deporte Favorito</h2>
+<p>Me gusta el Béisbol y el Futbol</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>OTROS GUSTOS E INTERESES</h2>
+<p>Me Encanta Dibujar y a la ves Escuchar Musica Mientras Lo Diseño y Jugar Videojuegos</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Dos</h4>
+<h4>Rodrigo Daniel Bautista Pérez</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>NOMBRE</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Bautista Pérez Rodrigo Daniel</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>FECHA DE NACIMIENTO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Día 3 de Marzo del año 2001</h2></div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DOMICILIO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Calle independencia#5 en Axocopan, Atlixco,pue</h2></div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DEPORTE FAVORITO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Béisbol</h2>
+<img src="imagenes/deporte.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Futbol</h2>
+<img src="imagenes/deporte2.jpeg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, RDBP</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>GUSTOS E INTERESES</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Dibujando y a la ves Escuchando Musica al Diseñarlo</h2>
+<img src="imagenes/pasatiempo.jpeg" width="50%" height="50%">
+<img src="imagenes/pasatiempo(1).jpg" width="50%" height="50%">
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Y el videojuego que mas me encanta y amo es PROJECT DIVA f 2nd </h2>
+<img src="imagenes/pasatiempo2.jpg" width="50%" height="50%">
+</div>
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/pasatiempo3.jpg" width="50%" height="50%">
+</div>
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/pasatiempo4.jpg" width="50%" height="50%">
+</div>
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/pasatiempo5.jpg" width="50%" height="50%">
+</div>
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/pasatiempo6.jpg" width="50%" height="50%">
+</div>
+<h2> Me encanta este videojuego por el hecho de ser rítmico</h2>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Dos, RDBP</h4>
+</div>
+</div>
+</body>
+</html>
